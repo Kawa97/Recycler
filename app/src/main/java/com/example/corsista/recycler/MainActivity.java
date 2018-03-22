@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView= findViewById(R.id.recyclerView);
         linearLayoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(linearLayoutManager);
-        recyclerAdapter=new RecyclerAdapter(new String[]{"AAAA","BBBB","dcsb","tstjdgh","fdsb","fsdh","dcsb","tstjdgh","fdsb","fsdh","dcsb","tstjdgh","fdsb","fsdh","dcsb","tstjdgh"});
+        recyclerAdapter=new RecyclerAdapter(new String[]{"AAAA","BBBB","CCCC","tstjdgh","fdsb","fsdh","dcsb","tstjdgh","fdsb","fsdh","dcsb","tstjdgh","fdsb","fsdh","dcsb","tstjdgh"});
         recyclerView.setAdapter(recyclerAdapter);
         Singleton.getInstance().setActiveManager("linearLayout");
         gridLayoutManager= new GridLayoutManager(this,4);
